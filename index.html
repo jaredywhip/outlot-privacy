@@ -31,6 +31,7 @@
         .note { background: #f5f5f7; border-left: 3px solid #0066cc; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; border-radius: 0 4px 4px 0; }
         .important { background: #fff8f0; border-left: 3px solid #e67700; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; border-radius: 0 4px 4px 0; }
         .contact { background: #f5f5f7; padding: 1rem; border-radius: 6px; margin: 1rem 0; }
+        .footer-note { color: #6e6e73; font-size: 0.85rem; font-style: italic; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e5e5; }
         @media (max-width: 480px) {
             body { padding: 1.25rem 1rem; }
             h1 { font-size: 1.5rem; }
@@ -41,7 +42,7 @@
 <body>
 
 <h1>Outlot Privacy Policy</h1>
-<p class="meta">Last Updated: April 19, 2026</p>
+<p class="meta">Version 1.2 · Last Updated: April 21, 2026</p>
 
 <h2>1. Introduction</h2>
 <p>Outlot ("we," "us," or "our") provides a mobile application and web platform that helps professional estate sale companies create inventory listings using artificial intelligence. This Privacy Policy explains how we collect, use, share, and protect your personal information when you use the Outlot application ("App") and related services (collectively, the "Service").</p>
@@ -84,12 +85,12 @@
 <p>Outlot uses artificial intelligence to generate inventory listings from your photos and voice notes. To power this functionality, we transmit certain data to <strong>OpenAI, L.L.C.</strong> ("OpenAI"), a third-party AI service provider. Here is exactly what that means:</p>
 
 <h3>4.1 What Data Is Sent to OpenAI</h3>
-<p>When you use the AI listing feature, the following data is transmitted to OpenAI's servers for processing:</p>
+<p>When you use the Service, the following data is transmitted to OpenAI's servers for processing:</p>
 <ul>
     <li><strong>Item photos</strong> you capture or upload, which are sent to OpenAI's vision model (GPT-4o) to identify items, assess condition, and generate descriptions.</li>
     <li><strong>Voice note transcriptions</strong>, which are processed through OpenAI's Whisper model to convert your spoken descriptions into text. The audio is transmitted to OpenAI for transcription.</li>
 </ul>
-<p>We do <strong>not</strong> send OpenAI your name, email address, account credentials, business information, or any personal information beyond the item photos and voice recordings you submit for AI processing.</p>
+<p>We do <strong>not</strong> send OpenAI your name, email address, account credentials, business information, or any personal information beyond the item photos and voice recordings you submit for processing.</p>
 
 <h3>4.2 How OpenAI Handles Your Data</h3>
 <p>We access OpenAI's services through their business API, which operates under the following terms:</p>
@@ -100,9 +101,10 @@
 </ul>
 <p>For more information, see <a href="https://openai.com/enterprise-privacy/">OpenAI's Enterprise Privacy page</a> and their <a href="https://openai.com/policies/data-processing-addendum/">Data Processing Addendum</a>.</p>
 
-<h3>4.3 Your Consent</h3>
-<p><strong>The first time you use an AI-powered feature in the App, you will be presented with a clear explanation of this data sharing and asked to provide your explicit consent before any data is transmitted to OpenAI.</strong> You may decline, in which case AI features will not be available, but you may continue to use other features of the App.</p>
-<p>You can withdraw your consent at any time in the App's settings, which will disable AI-powered features going forward. Withdrawing consent does not affect data already processed.</p>
+<h3>4.3 Consent to AI Processing</h3>
+<p>AI-powered generation of inventory listings is the core functionality of the Service. When you first use a feature that involves this processing, you will be shown a clear explanation of the data sharing described in Section 4.1 and asked to confirm that you agree before any of your photos or voice notes are transmitted to OpenAI.</p>
+<p>If you do not agree to this data sharing, the Service cannot generate listings for you. Because this processing is integral to how the Service works, there is no way to use the App's capture and listing features without agreeing. If you do not wish your data to be processed in this manner, please do not use the Service.</p>
+<p><strong>Stopping future processing.</strong> There is no in-app toggle to disable AI processing separately from using the Service. If you no longer wish for any of your data to be processed, you may delete your account at any time using the "Delete Account" option in your Profile. Account deletion will remove your photos, voice notes, generated listings, and associated data from our servers and will cease any further transmission to OpenAI. Account deletion does not retroactively affect data that has already been transmitted to OpenAI, which OpenAI retains for up to 30 days under its own policies (see Section 4.2).</p>
 
 <h3>4.4 Photos May Contain Sensitive Content</h3>
 <p>Estate sale item photos may incidentally capture personal property, family photographs, documents, or other items belonging to the estate. While our system is designed to focus on the items being inventoried, we cannot guarantee that incidental personal information visible in photos will not be processed by OpenAI. We recommend avoiding photographing sensitive personal documents or information that is not relevant to the inventory listing.</p>
@@ -164,8 +166,8 @@
 <ul>
     <li><strong>Access your data</strong> by viewing it within the App.</li>
     <li><strong>Delete individual items,</strong> including photos, voice notes, and listings, at any time within the App.</li>
-    <li><strong>Withdraw AI consent</strong> in the App's settings to prevent future data transmission to OpenAI.</li>
     <li><strong>Export your data</strong> by contacting us at <a href="mailto:outlot.contact@gmail.com">outlot.contact@gmail.com</a>.</li>
+    <li><strong>Stop all future data processing</strong> by deleting your account (see Section 8.1). Because AI processing is integral to the Service, it cannot be disabled separately — see Section 4.3.</li>
 </ul>
 
 <h3>8.3 California Residents — Your CCPA Rights</h3>
@@ -175,7 +177,7 @@
     <li><strong>Right to Delete.</strong> You have the right to request that we delete your personal information, subject to certain exceptions.</li>
     <li><strong>Right to Correct.</strong> You have the right to request that we correct inaccurate personal information.</li>
     <li><strong>Right to Opt-Out of Sale or Sharing.</strong> We do not sell or share your personal information for cross-context behavioral advertising. If this changes, we will provide a "Do Not Sell or Share My Personal Information" link.</li>
-    <li><strong>Right to Limit Use of Sensitive Personal Information.</strong> To the extent we process sensitive personal information (such as voice recordings), you have the right to limit our use to what is necessary to provide the Service.</li>
+    <li><strong>Right to Limit Use of Sensitive Personal Information.</strong> To the extent we process sensitive personal information (such as voice recordings), you have the right to limit our use to what is necessary to provide the Service. Because the core AI-powered listing generation is the Service, the processing described in Section 4 is considered necessary to provide the Service you have requested.</li>
     <li><strong>Right to Non-Discrimination.</strong> We will not discriminate against you for exercising your CCPA rights.</li>
 </ul>
 <p>To exercise any of these rights, contact us at <a href="mailto:outlot.contact@gmail.com">outlot.contact@gmail.com</a>. We will verify your identity before processing your request and respond within 45 days.</p>
@@ -201,6 +203,18 @@
     Outlot<br>
     Email: <a href="mailto:outlot.contact@gmail.com">outlot.contact@gmail.com</a>
 </div>
+
+<h2>Document History</h2>
+<table>
+    <thead>
+        <tr><th>Version</th><th>Date</th><th>Changes</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>1.0</td><td>April 11, 2026</td><td>Initial draft for external beta</td></tr>
+        <tr><td>1.1</td><td>April 19, 2026</td><td>Renamed to Outlot, added contact information</td></tr>
+        <tr><td>1.2</td><td>April 21, 2026</td><td>Clarified that AI processing is core to the Service; removed references to an in-app toggle for withdrawing AI consent (account deletion is the mechanism to stop future processing).</td></tr>
+    </tbody>
+</table>
 
 </body>
 </html>
